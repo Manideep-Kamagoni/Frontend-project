@@ -1,0 +1,430 @@
+html{
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-image: url("styles/aum3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    margin: 0;
+}
+
+.homeRoot{
+    height: 100%;
+    margin: 0;
+}
+ 
+.sol{
+    width: 70%;
+    height: auto;
+    margin: 20px auto 0;
+    background-color: gainsboro;
+    border: 2px solid black;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+header{
+    border-bottom: 2px solid #000000;
+}
+
+.arc{
+    display: flex;
+    height: 141px;
+}
+
+header .ember{
+    padding: 20px 20px 10px;
+    background-color: white;
+    border-right: 2px solid black;
+    left: 20px;
+    top: 15px;
+}
+
+header .ember img{
+    height: 100px;
+}
+
+header h1{
+    padding-left: 80px;
+    font-size: 40px;
+    text-align: left;
+}
+
+.keel{
+    flex: 1;
+    width: 100%;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(253, 220, 202), rgb(250, 116, 44), rgba(250, 116, 44));
+    background-color: black;
+}
+
+header nav{
+    background-color: black;
+}
+
+nav ul.keelList{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+nav ul.keelList li a{
+    display: block;
+    padding: 12px 55px;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+nav ul.keelList li.active a{
+    color: #d45515;
+}
+
+nav ul.keelList li a:hover{
+    background-color: grey;
+    color: black;
+}
+
+.roles{
+    border-top: 2px solid #8e8c8c;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+}
+
+.roles table,
+.roles td{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+table tr:nth-child(-n+2){
+    background-color: #8e8c8c;
+}
+
+table tr:nth-child(n+3){
+    background-color: rgb(176, 171, 171);
+}
+
+.narr{
+    padding-left: 10px;
+    text-align: left;
+    border-top: 2px solid #8e8c8c;
+    border-bottom: 2px solid #8e8c8c;
+}
+
+.narr ul{
+    list-style-position: inside;
+    padding-left: 2px;
+    padding-right: 10px;
+}
+
+.reach{
+    padding-right: 5px;
+    padding-top: 0;
+    border-top: 2px solid #8e8c8c;
+    border-bottom: 2px solid #8e8c8c;
+}
+
+.descLayout{
+    display: flex;
+    font-size: 16px;
+    text-align: justify;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    background-color: gainsboro;
+}
+
+.mainContent{
+    display: flex;
+    font-size: 16px;
+    text-align: justify;
+    padding-top: 25px;
+    padding-bottom: 80px;
+    background-color: lightgray;
+}
+
+.panelA,
+.panelB{
+    flex: 1;
+}
+
+.panelA{
+    border-right: 2px solid salmon;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.panel2,
+.panel5{
+    border-top: 2px solid #8e8c8c;
+    border-bottom: 2px solid #8e8c8c;
+}
+
+.panel2{
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-right: 10px;
+}
+
+.panel5{
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.panel4{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.introduct,
+.panel4{
+    border-top: 2px solid #8e8c8c;
+}
+
+.introduct{
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.panel3,
+.panel6{
+    border-bottom: 2px solid #8e8c8c;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.panel3{
+    padding: 7px 20px 10px 15px;
+}
+
+.panel6{
+    padding-right: 10px;
+}
+
+.mainContent p{
+    margin-top: 0;
+}
+
+.mainContent h2{
+    margin: 5px 0 8px 0;
+}
+
+.panel5 h2{
+    margin-top: 0;
+}
+
+.panel5 p{
+    margin-bottom: 3px;
+}
+
+.formWrap{
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+}
+
+.formWrap form{
+    width: 500px;
+    padding-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-left: 2px solid #e79b74;
+    border-right: 2px solid #e79b74;
+    border-top: 2px solid #8e8c8c;
+    border-bottom: 2px solid #8e8c8c;
+}
+
+.formWrap form label{
+    width: 110px;
+}
+
+.formWrap .gpaField{
+    margin-left: 50px;
+    width: 50px;
+}
+
+.formWrap .gender-box{
+    padding-left: 35px;
+}
+
+.formWrap form input{
+    margin: 10px;
+}
+
+.chkStyle input{
+    display: none;
+}
+
+.chkStyle span{
+    height: 18px;
+    width: 18px;
+    border: 2px solid #333;
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.chkStyle input:checked + span::after{
+    mainContent: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 12px;
+    height: 12px;
+    background: #333;
+}
+
+.lname, .fname, .sid    {
+    width: 150px;
+    padding: 2px;
+    border: 1px solid #999;
+    border-radius: 2px;
+    font-size: 13px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.formWrap .notes{
+    width: 150px;
+    height: 80px;
+    
+     margin-left: 4px;
+}
+.notesBox{
+    vertical-align: top;
+}
+.formWrap form input[type="submit"]{
+    width: 100px;
+    height: 35px;
+    border: 1px solid #8e8c8c;
+    margin-left: 30px;
+}
+
+.formWrap form input[type="reset"]{
+    width: 100px;
+    height: 35px;
+    margin-left: 30px;
+    border: 1px solid #8e8c8c;
+}
+
+
+.calcArea{
+    margin: 0;
+    background-color: gainsboro;
+}
+
+.calcPanel{
+    margin: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: gainsboro;
+    border-left: 2px solid #e79b74;
+    border-right: 2px solid #e79b74;
+    border-top: 2px solid #8e8c8c;
+    border-bottom: 2px solid #8e8c8c;
+}
+
+.calcPanel h1{
+    margin: 10px 0 0 0;
+}
+
+.calcPanel p{
+    margin: 0;
+}
+
+.rowEntry{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-left: 150px;
+    margin-bottom: 30px;
+}
+
+.rowHead{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 40px;
+    margin-top: 0;
+}
+
+.avgRow{
+    display: flex;
+    gap: 13px;
+    padding-left: 150px;
+    padding-bottom: 22px;
+}
+
+.calcPanel input[type="text"]{
+    width: 70px;
+    margin-left: 120px;
+}
+
+.calcPanel .avgField{
+    margin-right: 200px;
+    background-color: #8e8c8c;
+}
+
+.rowHeadMain{
+    padding-left: 310px;
+    padding-right: 80px;
+    margin: 0;
+}
+
+.calcPanel .btnMain{
+    width: 100px;
+    height: 35px;
+    border: 1px solid #8e8c8c;
+}
+
+.calcPanel .calcBtns{
+    display: flex;
+    gap: 100px;
+    margin-left: 340px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    background: rgb(220, 103, 40);
+    color: black;
+    font-size: 15px;
+    padding-bottom: 0;
+    padding-left: 20px;
+}
+
+.footL{
+    padding-left: 50px;
+    padding: 10px;
+    line-height: 21px;
+}
+
+.footC{
+    margin-bottom: 50px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.footR{
+    margin-top: 0;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.twit{
+    height: 33px;
+}
